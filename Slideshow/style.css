@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: rgb(224, 255, 224);
+}
+header {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.header{
+    height: 50px;
+    background-color:rgba(77, 13, 23, 0.966);
+}
+.slider{
+    height: calc(100vh - 50px);
+    overflow: hidden;
+}
+.slider--width {
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+.slider--item{
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: "Patrick Hand", cursive;
+    color: rgb(0, 29, 13);
+    text-shadow: 1px 1px 2px #aaa;
+    font-weight: bold;
+}
+.slider--controls {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    z-index: 99;
+    width: 100%;
+    padding: 20px;
+}
+.slider--control {
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(to top, rgba(13, 22, 10, 0.705), rgba(175, 255, 144, 0.527));
+    border: 2px solid #333;
+    font-size: 13px;
+    color: #222;
+    font-weight: 900;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider--item.img1 {
+    background-image: url(images/lirio-pink1.jpg);
+}
+.slider--item.img2 {
+    background-image: url(images/lirio-pink2.jpeg);
+}
+.slider--item.img3 {
+    background-image: url(images/lirio-pink3.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
